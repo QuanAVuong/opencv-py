@@ -27,3 +27,8 @@ cv2.destroyAllWindows()
 print(input.shape)		# => (417L, 1000L, 3L)
 print 'Height of Image:', int(input.shape[0]), 'pixels'		# => Height of Image: 417 pixels
 print 'Width of Image: ', int(input.shape[1]), 'pixels'		# => Width of Image:  1000 pixels
+
+
+# cv2.imwrite(filename, img[, params]) => retval
+# The function imwrite saves the image to the specified file.
+print cv2.imwrite("2.4-output.jpg", input)		#	=> True
