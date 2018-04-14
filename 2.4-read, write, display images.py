@@ -10,3 +10,9 @@ image = cv2.imread("./images/Computer-Vision.jpg")
 # winname – Name of the window.
 # image – Image to be shown.
 cv2.imshow("Computer Visions", image)
+
+# https://docs.opencv.org/2.4/modules/highgui/doc/user_interface.html?highlight=waitkey#waitkey
+# Waits for a pressed key, allows us to input information when a image window is open
+# cv2.waitKey([delay]) → retval¶
+# delay – Delay in milliseconds. 0 is the special value that means “forever”.
+cv2.waitKey()
