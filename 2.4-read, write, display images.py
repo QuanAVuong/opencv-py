@@ -16,3 +16,9 @@ cv2.imshow("Computer Visions", image)
 # cv2.waitKey([delay]) → retval¶
 # delay – Delay in milliseconds. 0 is the special value that means “forever”.
 cv2.waitKey()
+
+# https://docs.opencv.org/2.4/modules/highgui/doc/user_interface.html#void%20destroyAllWindows()
+# cv2.destroyAllWindows() → None
+# The function destroyAllWindows destroys all of the opened HighGUI windows.
+# Close all window, else program hangs
+cv2.destroyAllWindows()
